@@ -1,0 +1,35 @@
+# Compiled Java class files
+*.class
+
+# Build directories
+build/
+dist/
+
+# NetBeans project files (keep private config out)
+nbproject/private/
+
+# VSCode IDE files
+.vscode/
+.settings/
+.classpath
+.project
+*.prefs
+
+# macOS system files
+.DS_Store
+*.swp
+*.swo
+
+# JDT / Eclipse temp files
+*.tmp
+
+# JAR files
+*.jar
+!nbproject/*.jar
+
+# Log files
+*.log
+
+# Test results
+test/
+
