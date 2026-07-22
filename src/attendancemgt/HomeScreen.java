@@ -303,7 +303,7 @@ public class HomeScreen {
         footerPanel.setBackground(PRIMARY);
         main.add(footerPanel);
 
-        String[] footerItems = {"Attendance Management System v2.0", "Designed for Educational ERP"};
+        String[] footerItems = {"Attendance Management System v2.0", "Designed for Educational ERP By Ashutosh Dubney"};
         for (String fi : footerItems) {
             JLabel fl = new JLabel(fi);
             fl.setForeground(new Color(180, 190, 200));

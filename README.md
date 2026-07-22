@@ -119,23 +119,43 @@
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 🖥️ Quick Download & Run (No IDE Required)
+
+1. **Download the latest JAR** from the [Releases](https://github.com/ashudubeyvns/attendance-management-system/releases) page, or grab it directly from [GitHub Actions artifacts](https://github.com/ashudubeyvns/attendance-management-system/actions).
+
+2. **Run it** (requires **JDK 26+**):
+   ```bash
+   java -jar AttendanceMgt.jar
+   ```
+
+That's it — the login window will open!
+
+---
+
+### 🔧 Build from Source (Developer Setup)
+
+#### Prerequisites
 - **JDK 26+** (Java Development Kit)
 - Any Java IDE (VS Code with Java extension, NetBeans, IntelliJ, Eclipse)
 
-### Installation
-
+#### Clone & Run
 ```bash
 # 1. Clone the repository
 git clone https://github.com/ashudubeyvns/attendance-management-system.git
-cd attendance-management-system
+cd attendance-management-system/AttendanceMgt_1
 
 # 2. Compile the project
-cd /path/to/AttendanceMgt_1
 javac -d build/classes src/attendancemgt/*.java src/login_frame.java
 
 # 3. Run the application
 java -cp build/classes attendancemgt.AttendanceMgt
+```
+
+#### Build executable JAR
+```bash
+javac -d build/classes src/attendancemgt/*.java src/login_frame.java
+jar cfm dist/AttendanceMgt.jar manifest.mf -C build/classes .
+java -jar dist/AttendanceMgt.jar
 ```
 
 ### 🔑 Test Credentials

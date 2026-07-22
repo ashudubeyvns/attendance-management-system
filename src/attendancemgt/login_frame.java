@@ -26,7 +26,7 @@ public class login_frame {
         credentials.put("24SCSE1180381", "Gu@12345");
         credentials.put("24SCSE2030222", "Gu@12345");
         credentials.put("123", "012");
-        credentials.put("ZIYA", "FATIMA");
+        
 
         frame = new JFrame("LOGIN - Attendance Management");
         frame.getContentPane().setBackground(BG_LIGHT);
