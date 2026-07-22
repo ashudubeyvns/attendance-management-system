@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Attendance Management System</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/48/checked--v1.png" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">
+        <i class="fas fa-check-circle"></i> AttendanceMS
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#screenshots" class="nav-link">Screenshots</a></li>
+        <li><a href="#tech-stack" class="nav-link">Tech Stack</a></li>
+        <li><a href="#quick-start" class="nav-link">Getting Started</a></li>
+        <li><a href="https://github.com/ashudubeyvns/attendance-management-system" target="_blank" class="nav-link nav-cta"><i class="fab fa-github"></i> GitHub</a></li>
+      </ul>
+      <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>📚 Attendance <span class="highlight">Management</span> System</h1>
+          <p>A comprehensive Java Swing-based ERP module for managing student attendance, assignments, and sessional marks across multiple courses and programs.</p>
+          <div class="hero-badges">
+            <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+            <img src="https://img.shields.io/badge/Swing-007396?style=for-the-badge&logo=java&logoColor=white" alt="Swing" />
+            <img src="https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white" alt="NetBeans" />
+            <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License" />
+          </div>
+          <div class="hero-actions">
+            <a href="#quick-start" class="btn btn-primary"><i class="fas fa-rocket"></i> Get Started</a>
+            <a href="https://github.com/ashudubeyvns/attendance-management-system/releases" target="_blank" class="btn btn-secondary"><i class="fas fa-download"></i> Download JAR</a>
+            <a href="https://github.com/ashudubeyvns/attendance-management-system" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> View on GitHub</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="code-window">
+            <div class="code-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-title">AttendanceMgt.java</span>
+            </div>
+            <div class="code-body">
+              <pre><span class="keyword">public class</span> <span class="class-name">AttendanceMgt</span> {<br/>    <span class="keyword">public static void</span> <span class="method">main</span>(String[] args) {<br/>        <span class="keyword">new</span> <span class="class-name">LoginFrame</span>().setVisible(<span class="keyword">true</span>);<br/>    }<br/>}</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+        <path d="M0,50 C240,100 480,0 720,50 C960,100 1200,0 1440,50 L1440,100 L0,100 Z" fill="#ECF0F1"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== Features Section ===== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>✨ Features</h2>
+        <p>Everything you need to manage academic workflows efficiently</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔐</div>
+          <h3>Secure Login</h3>
+          <p>Role-based authentication with multiple user credentials and encrypted password storage.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Dashboard</h3>
+          <p>Centralized home screen with quick-action module cards and real-time statistics.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">✅</div>
+          <h3>Mark Attendance</h3>
+          <p>Daily attendance with Present/Absent toggle per student. Supports lectures & practicals.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📝</div>
+          <h3>Assignments</h3>
+          <p>Upload marks, manage max marks, update records with subject-wise sections.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📋</div>
+          <h3>Sessionals</h3>
+          <p>Enter Sessional-1, 2, 3 marks with auto-calculated totals and Pass/Fail status.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔑</div>
+          <h3>Change Password</h3>
+          <p>Secure password update with validation checks and confirmation.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Responsive UI</h3>
+          <p>Single-window scrollable interface with CardLayout navigation across all modules.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎓</div>
+          <h3>Multi-Course</h3>
+          <p>BCA, MCA, B.Tech CSE/IT, B.Sc CS, M.Sc CS with semester-wise subjects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Screenshots Section ===== -->
+  <section class="screenshots" id="screenshots">
+    <div class="container">
+      <div class="section-header">
+        <h2>🖼️ Screenshots</h2>
+        <p>Take a peek at the application interface</p>
+      </div>
+      <div class="screenshot-showcase">
+        <div class="screenshot-card">
+          <div class="screenshot-preview login-preview">
+            <div class="mock-screen">
+              <div class="mock-header">Login</div>
+              <div class="mock-body">
+                <div class="mock-avatar"><i class="fas fa-user-graduate"></i></div>
+                <div class="mock-input"></div>
+                <div class="mock-input"></div>
+                <div class="mock-btn">Sign In</div>
+              </div>
+            </div>
+          </div>
+          <p class="screenshot-label">🔐 Login Screen</p>
+        </div>
+        <div class="screenshot-card">
+          <div class="screenshot-preview dashboard-preview">
+            <div class="mock-screen">
+              <div class="mock-header">Dashboard</div>
+              <div class="mock-body">
+                <div class="mock-stats">
+                  <span class="mock-stat"></span>
+                  <span class="mock-stat"></span>
+                  <span class="mock-stat"></span>
+                </div>
+                <div class="mock-cards">
+                  <span class="mock-card"></span>
+                  <span class="mock-card"></span>
+                  <span class="mock-card"></span>
+                  <span class="mock-card"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="screenshot-label">🏠 Dashboard</p>
+        </div>
+        <div class="screenshot-card">
+          <div class="screenshot-preview attendance-preview">
+            <div class="mock-screen">
+              <div class="mock-header">Mark Attendance</div>
+              <div class="mock-body">
+                <div class="mock-row"></div>
+                <div class="mock-row"></div>
+                <div class="mock-row"></div>
+                <div class="mock-row"></div>
+              </div>
+            </div>
+          </div>
+          <p class="screenshot-label">✅ Mark Attendance</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Tech Stack Section ===== -->
+  <section class="tech-stack" id="tech-stack">
+    <div class="container">
+      <div class="section-header">
+        <h2>🛠️ Tech Stack</h2>
+        <p>Built with modern Java technologies</p>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <i class="fab fa-java"></i>
+          <span>Java 26</span>
+        </div>
+        <div class="tech-item">
+          <i class="fas fa-desktop"></i>
+          <span>Java Swing</span>
+        </div>
+        <div class="tech-item">
+          <i class="fas fa-cubes"></i>
+          <span>NetBeans / Ant</span>
+        </div>
+        <div class="tech-item">
+          <i class="fas fa-layer-group"></i>
+          <span>CardLayout</span>
+        </div>
+        <div class="tech-item">
+          <i class="fas fa-code"></i>
+          <span>JDT LSP</span>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-github"></i>
+          <span>GitHub Actions</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Courses Supported ===== -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <div class="section-header">
+        <h2>🎓 Courses Supported</h2>
+        <p>Comprehensive academic program coverage</p>
+      </div>
+      <div class="courses-table-wrapper">
+        <table class="courses-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Course</th>
+              <th>Semesters</th>
+              <th>Department</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>BCA — Bachelor of Computer Applications</td><td>6</td><td>CSA</td></tr>
+            <tr><td>2</td><td>MCA — Master of Computer Applications</td><td>4</td><td>MCA</td></tr>
+            <tr><td>3</td><td>B.Tech CSE — Computer Science & Engineering</td><td>8</td><td>CSE</td></tr>
+            <tr><td>4</td><td>B.Tech IT — Information Technology</td><td>8</td><td>IT</td></tr>
+            <tr><td>5</td><td>B.Sc CS — Computer Science</td><td>6</td><td>CS</td></tr>
+            <tr><td>6</td><td>M.Sc CS — Computer Science</td><td>4</td><td>CS</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Quick Start Section ===== -->
+  <section class="quick-start" id="quick-start">
+    <div class="container">
+      <div class="section-header">
+        <h2>🚀 Getting Started</h2>
+        <p>Ready to use it? Here's how</p>
+      </div>
+      <div class="start-steps">
+        <div class="start-step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Download the JAR</h3>
+            <p>Grab the latest release from <a href="https://github.com/ashudubeyvns/attendance-management-system/releases" target="_blank">GitHub Releases</a> or <a href="https://github.com/ashudubeyvns/attendance-management-system/actions" target="_blank">Actions Artifacts</a>.</p>
+          </div>
+        </div>
+        <div class="start-step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Run it</h3>
+            <p>Make sure you have <strong>JDK 26+</strong> installed, then run:</p>
+            <div class="code-block">
+              <code>java -jar AttendanceMgt.jar</code>
+              <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="start-step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Or build from source</h3>
+            <div class="code-block">
+              <code>git clone https://github.com/ashudubeyvns/attendance-management-system.git</code>
+              <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i></button>
+            </div>
+            <div class="code-block">
+              <code>cd attendance-management-system/AttendanceMgt_1 && javac -d build/classes src/attendancemgt/*.java src/login_frame.java && java -cp build/classes attendancemgt.AttendanceMgt</code>
+              <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="start-step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Test Credentials</h3>
+            <div class="credentials-grid">
+              <div class="cred-item"><code>24SCSE1180456</code><span>Gu@12345</span></div>
+              <div class="cred-item"><code>24SCSE1180381</code><span>Gu@12345</span></div>
+              <div class="cred-item"><code>24SCSE2030222</code><span>Gu@12345</span></div>
+              <div class="cred-item"><code>123</code><span>012</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3><i class="fas fa-check-circle"></i> Attendance Management System</h3>
+          <p>A comprehensive Java Swing-based ERP module for academic management.</p>
+          <div class="footer-stats">
+            <a href="https://github.com/ashudubeyvns/attendance-management-system/stargazers" target="_blank">
+              <img src="https://img.shields.io/github/stars/ashudubeyvns/attendance-management-system?style=social" alt="Stars" />
+            </a>
+            <a href="https://github.com/ashudubeyvns/attendance-management-system/network/members" target="_blank">
+              <img src="https://img.shields.io/github/forks/ashudubeyvns/attendance-management-system?style=social" alt="Forks" />
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="https://github.com/ashudubeyvns/attendance-management-system" target="_blank">Repository</a></li>
+            <li><a href="https://github.com/ashudubeyvns/attendance-management-system/releases" target="_blank">Releases</a></li>
+            <li><a href="https://github.com/ashudubeyvns/attendance-management-system/issues" target="_blank">Issues</a></li>
+            <li><a href="https://github.com/ashudubeyvns/attendance-management-system/actions" target="_blank">Actions</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Modules</h4>
+          <ul>
+            <li><a href="#features">Mark Attendance</a></li>
+            <li><a href="#features">Assignments</a></li>
+            <li><a href="#features">Sessionals</a></li>
+            <li><a href="#features">Change Password</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Made with ❤️ by <a href="https://github.com/ashudubeyvns" target="_blank">Ashutosh Dubey</a></p>
+        <p>Licensed under <a href="https://github.com/ashudubeyvns/attendance-management-system/blob/main/LICENSE" target="_blank">MIT License</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+

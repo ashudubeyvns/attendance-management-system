@@ -3,6 +3,9 @@
   <img src="https://img.shields.io/badge/Swing-007396?style=for-the-badge&logo=java&logoColor=white" alt="Swing"/>
   <img src="https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white" alt="NetBeans"/>
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License"/>
+  <a href="https://ashudubeyvns.github.io/attendance-management-system/" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Pages-Live-2C3E50?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages"/>
+  </a>
 </div>
 
 <br/>
@@ -12,6 +15,7 @@
   <p><strong>A comprehensive Java Swing-based ERP module for managing student attendance, assignments, and sessional marks across multiple courses and programs.</strong></p>
   
   <p>
+    🌐 <strong><a href="https://ashudubeyvns.github.io/attendance-management-system/" target="_blank">Visit the Project Website</a></strong> •
     <a href="#-features">Features</a> •
     <a href="#-screenshots">Screenshots</a> •
     <a href="#-tech-stack">Tech Stack</a> •
@@ -189,6 +193,11 @@ AttendanceMgt_1/
 ├── build/
 │   └── classes/                         # Compiled .class files
 ├── nbproject/                           # NetBeans project config
+├── docs/                                # GitHub Pages website
+│   ├── index.html                       # Landing page
+│   └── assets/
+│       ├── css/style.css
+│       └── js/main.js
 ├── build.xml                            # Ant build script
 ├── manifest.mf                          # JAR manifest
 ├── .gitignore
