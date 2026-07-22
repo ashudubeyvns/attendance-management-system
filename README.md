@@ -127,7 +127,7 @@
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/attendance-management-system.git
+git clone https://github.com/ashudubeyvns/attendance-management-system.git
 cd attendance-management-system
 
 # 2. Compile the project
@@ -146,7 +146,6 @@ java -cp build/classes attendancemgt.AttendanceMgt
 | `24SCSE1180381` | `Gu@12345` |
 | `24SCSE2030222` | `Gu@12345` |
 | `123` | `012` |
-| `ZIYA` | `FATIMA` |
 
 ---
 
@@ -244,10 +243,10 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/YOUR_USERNAME">Ashutosh Dubey</a></p>
+  <p>Made with ❤️ by <a href="https://github.com/ashudubeyvns">Ashutosh Dubey</a></p>
   <p>
-    <img src="https://img.shields.io/github/stars/YOUR_USERNAME/attendance-management-system?style=social" alt="Stars"/>
-    <img src="https://img.shields.io/github/forks/YOUR_USERNAME/attendance-management-system?style=social" alt="Forks"/>
+    <img src="https://img.shields.io/github/stars/ashudubeyvns/attendance-management-system?style=social" alt="Stars"/>
+    <img src="https://img.shields.io/github/forks/ashudubeyvns/attendance-management-system?style=social" alt="Forks"/>
   </p>
 </div>
 
